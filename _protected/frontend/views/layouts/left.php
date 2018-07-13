@@ -3,7 +3,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\Pjax;
 use yii\db\Query;
-use rmrevin\yii\fontawesome\FA;
+//use rmrevin\yii\fontawesome\FA;
 
 rmrevin\yii\fontawesome\AssetBundle::register($this);
 ?>
@@ -200,7 +200,9 @@ foreach ($subeight as $value) {
                 ['label' => 'ข้อมูลกำลังคน', 'icon' => 'fa fa-users', 'url' => '#',
                     'items'=> $menusubfive
                     ], 
-                 ['label' => 'ข้อมูลรายบุคคล', 'icon' => 'fa fa-female', 'url' => 'personnel/'], 
+                 ['label' => 'ข้อมูลรายบุคคล', 'icon' => 'fa fa-female', 'url' => '#',
+                    'items'=> $menusubsix
+                    ], 
                
                    
              //////////////////////////////////////////////////////////////      
