@@ -89,13 +89,14 @@ $this->params['breadcrumbs'][] =  $model->fname.' '.$model->lname;
               
             ],
             
+            
           //  'comment2',
           //  'comment3',
         ],
     ]) ?>
         </div><!-- /.box-body -->
         <div class="box-footer">
-        
+       ปรับรุงเมื่อ .. <?php print_r($model->times_stamp)  ?>
         </div><!-- box-footer -->
       </div><!-- /.box -->
 
