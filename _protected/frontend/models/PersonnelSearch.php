@@ -20,7 +20,7 @@ class PersonnelSearch extends Personnel
     public function rules()
     {
         return [
-            [['person_id','prefix_name','fname', 'lname', 'person_birthday', 'category_id', 'position_id', 'levelposition_id', 'startworkdate', 'np_id', 'apn_id', 'degree_id', 'dep_id', 'comment2', 'comment3','q'], 'safe'],
+            [['person_id','prefix_name','fname', 'lname', 'person_birthday', 'category_id', 'position_id', 'levelposition_id', 'startworkdate', 'np_id', 'apn_id', 'degree_id', 'dep_id', 'times_stamp', 'comment3','q'], 'safe'],
             [['prefix_id'], 'integer'],
         ];
     }
@@ -83,7 +83,7 @@ class PersonnelSearch extends Personnel
             ->orFilterWhere(['like', 'apn_id', $this->q])
             ->orFilterWhere(['like', 'degree_id', $this->q])
             ->orFilterWhere(['like', 'dep_id', $this->q])
-            ->orFilterWhere(['like', 'comment2', $this->q])
+           // ->orFilterWhere(['like', 'times_stamp', $this->q])
             ->orFilterWhere(['like', 'comment3', $this->q]);
 
         return $dataProvider;

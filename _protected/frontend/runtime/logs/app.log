@@ -50764,3 +50764,1690 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1531450250.755
     'REQUEST_TIME' => 1531450250
 ]
+2018-07-13 08:43:21 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "nursejob/img/nurse.png".' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('nursejob/img/nu...', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-07-13 08:43:21 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/nursejob/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11306'
+    'REDIRECT_URL' => '/nursesystem/nursejob/img/nurse.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/nursejob/img/nurse.png'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531464201.818
+    'REQUEST_TIME' => 1531464201
+]
+2018-07-13 08:43:22 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "nursejob/img/cal.gif".' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('nursejob/img/ca...', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-07-13 08:43:22 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/nursejob/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11306'
+    'REDIRECT_URL' => '/nursesystem/nursejob/img/cal.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/nursejob/img/cal.gif'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531464202.032
+    'REQUEST_TIME' => 1531464202
+]
+2018-07-13 08:43:40 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "personnel/img/nurse.png".' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/img/n...', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-07-13 08:43:40 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11323'
+    'REDIRECT_URL' => '/nursesystem/personnel/img/nurse.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/img/nurse.png'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531464220.856
+    'REQUEST_TIME' => 1531464220
+]
+2018-07-13 08:43:41 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment2' in 'where clause'' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('*', NULL)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{summary}')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget(Array)
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('index', Array)
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/index', Array)
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment2' in 'where clause'
+The SQL being executed was: SELECT COUNT(*) FROM `personnel` LEFT JOIN `prefix` ON `personnel`.`prefix_id` = `prefix`.`prefix_id` WHERE ((((((((((((`person_id` LIKE '%นาง%') OR (`prefix_name` LIKE '%นาง%')) OR (`fname` LIKE '%นาง%')) OR (`lname` LIKE '%นาง%')) OR (`category_id` LIKE '%นาง%')) OR (`position_id` LIKE '%นาง%')) OR (`levelposition_id` LIKE '%นาง%')) OR (`np_id` LIKE '%นาง%')) OR (`apn_id` LIKE '%นาง%')) OR (`degree_id` LIKE '%นาง%')) OR (`dep_id` LIKE '%นาง%')) OR (`comment2` LIKE '%นาง%')) OR (`comment3` LIKE '%นาง%')' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('*', NULL)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{summary}')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget(Array)
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('index', Array)
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/index', Array)
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'comment2' in 'where clause'
+)
+
+2018-07-13 08:43:40 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = [
+    'PersonnelSearch' => [
+        'q' => 'นาง'
+    ]
+    '_pjax' => '#grid-user-pjax'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => '4hZ0cRAf2J4PoRfcC4YQDROVeGRoMZ6IqdiM9T3WxN3RdRAXIkiL50CVJut54XR_QfwdNx8Gqtfdk8mWVKyH8A=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#grid-user-pjax'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11322'
+    'REDIRECT_QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87&_pjax=%23grid-user-pjax'
+    'REDIRECT_URL' => '/nursesystem/personnel/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87&_pjax=%23grid-user-pjax'
+    'REQUEST_URI' => '/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87&_pjax=%23grid-user-pjax'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531464220.822
+    'REQUEST_TIME' => 1531464220
+]
+2018-07-13 08:43:41 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment2' in 'where clause'' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment2' in 'where clause'
+The SQL being executed was: SELECT COUNT(*) FROM `personnel` LEFT JOIN `prefix` ON `personnel`.`prefix_id` = `prefix`.`prefix_id` WHERE ((((((((((((`person_id` LIKE '%นาง%') OR (`prefix_name` LIKE '%นาง%')) OR (`fname` LIKE '%นาง%')) OR (`lname` LIKE '%นาง%')) OR (`category_id` LIKE '%นาง%')) OR (`position_id` LIKE '%นาง%')) OR (`levelposition_id` LIKE '%นาง%')) OR (`np_id` LIKE '%นาง%')) OR (`apn_id` LIKE '%นาง%')) OR (`degree_id` LIKE '%นาง%')) OR (`dep_id` LIKE '%นาง%')) OR (`comment2` LIKE '%นาง%')) OR (`comment3` LIKE '%นาง%')' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'comment2' in 'where clause'
+)
+
+2018-07-13 08:43:41 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = [
+    'PersonnelSearch' => [
+        'q' => 'นาง'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11323'
+    'REDIRECT_QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REDIRECT_URL' => '/nursesystem/personnel/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REQUEST_URI' => '/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531464221.066
+    'REQUEST_TIME' => 1531464221
+]
+2018-07-13 08:45:22 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment2' in 'where clause'' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment2' in 'where clause'
+The SQL being executed was: SELECT COUNT(*) FROM `personnel` LEFT JOIN `prefix` ON `personnel`.`prefix_id` = `prefix`.`prefix_id` WHERE ((((((((((((`person_id` LIKE '%นาง%') OR (`prefix_name` LIKE '%นาง%')) OR (`fname` LIKE '%นาง%')) OR (`lname` LIKE '%นาง%')) OR (`category_id` LIKE '%นาง%')) OR (`position_id` LIKE '%นาง%')) OR (`levelposition_id` LIKE '%นาง%')) OR (`np_id` LIKE '%นาง%')) OR (`apn_id` LIKE '%นาง%')) OR (`degree_id` LIKE '%นาง%')) OR (`dep_id` LIKE '%นาง%')) OR (`comment2` LIKE '%นาง%')) OR (`comment3` LIKE '%นาง%')' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'comment2' in 'where clause'
+)
+
+2018-07-13 08:45:21 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = [
+    'PersonnelSearch' => [
+        'q' => 'นาง'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11342'
+    'REDIRECT_QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REDIRECT_URL' => '/nursesystem/personnel/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REQUEST_URI' => '/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531464321.946
+    'REQUEST_TIME' => 1531464321
+]
+2018-07-13 08:45:45 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1271 Illegal mix of collations for operation 'like'' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000]: General error: 1271 Illegal mix of collations for operation 'like'
+The SQL being executed was: SELECT COUNT(*) FROM `personnel` LEFT JOIN `prefix` ON `personnel`.`prefix_id` = `prefix`.`prefix_id` WHERE ((((((((((((`person_id` LIKE '%นาง%') OR (`prefix_name` LIKE '%นาง%')) OR (`fname` LIKE '%นาง%')) OR (`lname` LIKE '%นาง%')) OR (`category_id` LIKE '%นาง%')) OR (`position_id` LIKE '%นาง%')) OR (`levelposition_id` LIKE '%นาง%')) OR (`np_id` LIKE '%นาง%')) OR (`apn_id` LIKE '%นาง%')) OR (`degree_id` LIKE '%นาง%')) OR (`dep_id` LIKE '%นาง%')) OR (`times_stamp` LIKE '%นาง%')) OR (`comment3` LIKE '%นาง%')' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1271
+    [2] => Illegal mix of collations for operation 'like'
+)
+
+2018-07-13 08:45:45 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = [
+    'PersonnelSearch' => [
+        'q' => 'นาง'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11347'
+    'REDIRECT_QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REDIRECT_URL' => '/nursesystem/personnel/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REQUEST_URI' => '/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531464345.241
+    'REQUEST_TIME' => 1531464345
+]
+2018-07-13 08:46:38 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1271 Illegal mix of collations for operation 'like'' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000]: General error: 1271 Illegal mix of collations for operation 'like'
+The SQL being executed was: SELECT COUNT(*) FROM `personnel` LEFT JOIN `prefix` ON `personnel`.`prefix_id` = `prefix`.`prefix_id` WHERE ((((((((((((`person_id` LIKE '%นาง%') OR (`prefix_name` LIKE '%นาง%')) OR (`fname` LIKE '%นาง%')) OR (`lname` LIKE '%นาง%')) OR (`category_id` LIKE '%นาง%')) OR (`position_id` LIKE '%นาง%')) OR (`levelposition_id` LIKE '%นาง%')) OR (`np_id` LIKE '%นาง%')) OR (`apn_id` LIKE '%นาง%')) OR (`degree_id` LIKE '%นาง%')) OR (`dep_id` LIKE '%นาง%')) OR (`times_stamp` LIKE '%นาง%')) OR (`comment3` LIKE '%นาง%')' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1271
+    [2] => Illegal mix of collations for operation 'like'
+)
+
+2018-07-13 08:46:38 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = [
+    'PersonnelSearch' => [
+        'q' => 'นาง'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11358'
+    'REDIRECT_QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REDIRECT_URL' => '/nursesystem/personnel/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REQUEST_URI' => '/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531464398.546
+    'REQUEST_TIME' => 1531464398
+]
+2018-07-13 08:47:21 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1271 Illegal mix of collations for operation 'like'' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000]: General error: 1271 Illegal mix of collations for operation 'like'
+The SQL being executed was: SELECT COUNT(*) FROM `personnel` LEFT JOIN `prefix` ON `personnel`.`prefix_id` = `prefix`.`prefix_id` WHERE ((((((((((((`person_id` LIKE '%นาง%') OR (`prefix_name` LIKE '%นาง%')) OR (`fname` LIKE '%นาง%')) OR (`lname` LIKE '%นาง%')) OR (`category_id` LIKE '%นาง%')) OR (`position_id` LIKE '%นาง%')) OR (`levelposition_id` LIKE '%นาง%')) OR (`np_id` LIKE '%นาง%')) OR (`apn_id` LIKE '%นาง%')) OR (`degree_id` LIKE '%นาง%')) OR (`dep_id` LIKE '%นาง%')) OR (`times_stamp` LIKE '%นาง%')) OR (`comment3` LIKE '%นาง%')' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1271
+    [2] => Illegal mix of collations for operation 'like'
+)
+
+2018-07-13 08:47:21 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = [
+    'PersonnelSearch' => [
+        'q' => 'นาง'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11369'
+    'REDIRECT_QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REDIRECT_URL' => '/nursesystem/personnel/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REQUEST_URI' => '/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531464441.265
+    'REQUEST_TIME' => 1531464441
+]
+2018-07-13 08:49:20 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1271 Illegal mix of collations for operation 'like'' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000]: General error: 1271 Illegal mix of collations for operation 'like'
+The SQL being executed was: SELECT COUNT(*) FROM `personnel` LEFT JOIN `prefix` ON `personnel`.`prefix_id` = `prefix`.`prefix_id` WHERE ((((((((((((`person_id` LIKE '%นาง%') OR (`prefix_name` LIKE '%นาง%')) OR (`fname` LIKE '%นาง%')) OR (`lname` LIKE '%นาง%')) OR (`category_id` LIKE '%นาง%')) OR (`position_id` LIKE '%นาง%')) OR (`levelposition_id` LIKE '%นาง%')) OR (`np_id` LIKE '%นาง%')) OR (`apn_id` LIKE '%นาง%')) OR (`degree_id` LIKE '%นาง%')) OR (`dep_id` LIKE '%นาง%')) OR (`times_stamp` LIKE '%นาง%')) OR (`comment3` LIKE '%นาง%')' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1271
+    [2] => Illegal mix of collations for operation 'like'
+)
+
+2018-07-13 08:49:20 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = [
+    'PersonnelSearch' => [
+        'q' => 'นาง'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11386'
+    'REDIRECT_QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REDIRECT_URL' => '/nursesystem/personnel/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REQUEST_URI' => '/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531464560.409
+    'REQUEST_TIME' => 1531464560
+]
+2018-07-13 08:53:39 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1271 Illegal mix of collations for operation 'like'' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000]: General error: 1271 Illegal mix of collations for operation 'like'
+The SQL being executed was: SELECT COUNT(*) FROM `personnel` LEFT JOIN `prefix` ON `personnel`.`prefix_id` = `prefix`.`prefix_id` WHERE ((((((((((((`person_id` LIKE '%นาง%') OR (`prefix_name` LIKE '%นาง%')) OR (`fname` LIKE '%นาง%')) OR (`lname` LIKE '%นาง%')) OR (`category_id` LIKE '%นาง%')) OR (`position_id` LIKE '%นาง%')) OR (`levelposition_id` LIKE '%นาง%')) OR (`np_id` LIKE '%นาง%')) OR (`apn_id` LIKE '%นาง%')) OR (`degree_id` LIKE '%นาง%')) OR (`dep_id` LIKE '%นาง%')) OR (`times_stamp` LIKE '%นาง%')) OR (`comment3` LIKE '%นาง%')' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(340): yii\db\Query->queryScalar('<span class="st...', Object(yii\db\Connection))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('<span class="st...')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('<span class="st...')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}('[<span class="s...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('<span class="st...', Object(Closure), '<span class="st...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(70): yii\base\Widget::widget('[<span class="s...')
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PersonnelController))
+#25 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#26 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#28 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#29 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#30 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#31 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1271
+    [2] => Illegal mix of collations for operation 'like'
+)
+
+2018-07-13 08:53:39 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = [
+    'PersonnelSearch' => [
+        'q' => 'นาง'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11421'
+    'REDIRECT_QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REDIRECT_URL' => '/nursesystem/personnel/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'REQUEST_URI' => '/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531464819.403
+    'REQUEST_TIME' => 1531464819
+]
+2018-07-13 08:58:00 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "personnel/img/nurse.png".' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/img/n...', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-07-13 08:57:59 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11458'
+    'REDIRECT_URL' => '/nursesystem/personnel/img/nurse.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/img/nurse.png'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531465079.934
+    'REQUEST_TIME' => 1531465079
+]
+2018-07-13 08:58:00 [::1][2][8gup21657kdp1h3f22cinb8qi6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "personnel/img/cal.gif".' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/img/c...', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-07-13 08:58:00 [::1][2][8gup21657kdp1h3f22cinb8qi6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8gup21657kdp1h3f22cinb8qi6'
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3cdf2WSyO417rgdrRieSw74_tKEcizC-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/nursesystem/nursejob/index'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=8gup21657kdp1h3f22cinb8qi6; _identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=15df81dffcdadb65f5fee6f5005c0091723d069185b2966791d0b12f01a6f915a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223cdf2WSyO417rgdrRieSw74_tKEcizC-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '11458'
+    'REDIRECT_URL' => '/nursesystem/personnel/img/cal.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/img/cal.gif'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531465080.132
+    'REQUEST_TIME' => 1531465080
+]

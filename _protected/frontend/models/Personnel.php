@@ -86,7 +86,7 @@ class Personnel extends \yii\db\ActiveRecord
             'apn_id' => 'Apn ID',
             'degree_id' => 'Degree ID',
             'dep_id' => 'Dep ID',
-            'comment2' => 'Comment2',
+            'times_stamp' => 'Times_stamp',
             'comment3' => 'Comment3',
         ];
     }
