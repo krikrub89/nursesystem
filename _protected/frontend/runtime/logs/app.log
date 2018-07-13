@@ -48223,3 +48223,2544 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1531367125.131
     'REQUEST_TIME' => 1531367125
 ]
+2018-07-12 08:29:46 [::1][2][qrtu3p7tc7i5v0kiv8iebgov26][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img/cal.gif".' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('img/cal.gif', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-07-12 08:29:46 [::1][2][qrtu3p7tc7i5v0kiv8iebgov26][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => 'qrtu3p7tc7i5v0kiv8iebgov26'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=qrtu3p7tc7i5v0kiv8iebgov26'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '51333'
+    'REDIRECT_URL' => '/nursesystem/img/cal.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/img/cal.gif'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531376986.427
+    'REQUEST_TIME' => 1531376986
+]
+2018-07-12 08:29:52 [::1][2][qrtu3p7tc7i5v0kiv8iebgov26][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "personnel/img/nurse.png".' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/img/n...', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-07-12 08:29:51 [::1][2][qrtu3p7tc7i5v0kiv8iebgov26][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => 'qrtu3p7tc7i5v0kiv8iebgov26'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=qrtu3p7tc7i5v0kiv8iebgov26'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '51336'
+    'REDIRECT_URL' => '/nursesystem/personnel/img/nurse.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/img/nurse.png'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531376991.726
+    'REQUEST_TIME' => 1531376991
+]
+2018-07-12 08:29:52 [::1][2][qrtu3p7tc7i5v0kiv8iebgov26][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "personnel/img/cal.gif".' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/img/c...', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-07-12 08:29:52 [::1][2][qrtu3p7tc7i5v0kiv8iebgov26][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => 'qrtu3p7tc7i5v0kiv8iebgov26'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=qrtu3p7tc7i5v0kiv8iebgov26'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '51336'
+    'REDIRECT_URL' => '/nursesystem/personnel/img/cal.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/img/cal.gif'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531376992.432
+    'REQUEST_TIME' => 1531376992
+]
+2018-07-12 08:29:53 [::1][2][qrtu3p7tc7i5v0kiv8iebgov26][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "personnel/img/cal.gif".' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/img/c...', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-07-12 08:29:53 [::1][2][qrtu3p7tc7i5v0kiv8iebgov26][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => 'qrtu3p7tc7i5v0kiv8iebgov26'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=qrtu3p7tc7i5v0kiv8iebgov26'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '51335'
+    'REDIRECT_URL' => '/nursesystem/personnel/img/cal.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/img/cal.gif'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531376993.073
+    'REQUEST_TIME' => 1531376993
+]
+2018-07-12 08:51:01 [::1][2][qrtu3p7tc7i5v0kiv8iebgov26][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\ActiveQuery::onFilterWhere()' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\frontend\models\PersonnelSearch.php(77): yii\base\Component->__call('onFilterWhere', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\frontend\models\PersonnelSearch.php(77): yii\db\ActiveQuery->onFilterWhere(Array)
+#2 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(29): app\models\PersonnelSearch->search(Array)
+#3 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/index', Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#10 {main}
+2018-07-12 08:51:00 [::1][2][qrtu3p7tc7i5v0kiv8iebgov26][info][application] $_GET = [
+    'PersonnelSearch' => [
+        'q' => 'สา'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => 'qrtu3p7tc7i5v0kiv8iebgov26'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%99%E0%B8%B2%E0%B8%87'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=qrtu3p7tc7i5v0kiv8iebgov26'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '51462'
+    'REDIRECT_QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%AA%E0%B8%B2'
+    'REDIRECT_URL' => '/nursesystem/personnel/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'PersonnelSearch%5Bq%5D=%E0%B8%AA%E0%B8%B2'
+    'REQUEST_URI' => '/nursesystem/personnel/index?PersonnelSearch%5Bq%5D=%E0%B8%AA%E0%B8%B2'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531378260.882
+    'REQUEST_TIME' => 1531378260
+]
+2018-07-12 09:12:38 [::1][2][pdkbc87mvrq2p0cnn1ad2ao5t6][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\filters\AccessControl.php:158
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\filters\AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#11 {main}
+2018-07-12 09:12:37 [::1][2][pdkbc87mvrq2p0cnn1ad2ao5t6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => 'pdkbc87mvrq2p0cnn1ad2ao5t6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=pdkbc87mvrq2p0cnn1ad2ao5t6'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '51777'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/view'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531379557.812
+    'REQUEST_TIME' => 1531379557
+]
+2018-07-12 09:12:48 [::1][2][pdkbc87mvrq2p0cnn1ad2ao5t6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: personnel/view.php' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view.php', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view....', Array)
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-07-12 09:12:48 [::1][2][pdkbc87mvrq2p0cnn1ad2ao5t6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => 'pdkbc87mvrq2p0cnn1ad2ao5t6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=pdkbc87mvrq2p0cnn1ad2ao5t6'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '51785'
+    'REDIRECT_URL' => '/nursesystem/personnel/view.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/view.php'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531379568.631
+    'REQUEST_TIME' => 1531379568
+]
+2018-07-12 09:13:29 [::1][2][pdkbc87mvrq2p0cnn1ad2ao5t6][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Personnel::username' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('username')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('username')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Personnel), 'username')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Personnel), '000001', 0)
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Personnel), '000001', 0)
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(520): yii\grid\Column->renderDataCell(Object(app\models\Personnel), '000001', 0)
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(489): yii\grid\GridView->renderTableRow(Object(app\models\Personnel), '000001', 0)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(353): yii\grid\GridView->renderTableBody()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{items}')
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#15 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(55): yii\base\Widget::widget(Array)
+#16 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\PersonnelController))
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('index', Array)
+#21 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#25 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/', Array)
+#26 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#28 {main}
+2018-07-12 09:13:28 [::1][2][pdkbc87mvrq2p0cnn1ad2ao5t6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => 'pdkbc87mvrq2p0cnn1ad2ao5t6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=pdkbc87mvrq2p0cnn1ad2ao5t6'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '51797'
+    'REDIRECT_URL' => '/nursesystem/personnel/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531379608.675
+    'REQUEST_TIME' => 1531379608
+]
+2018-07-12 09:42:12 [::1][2][021snrdeoio8r9fk23o57q5407][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Personnel::username' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('username')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('username')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Personnel), 'username')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Personnel), '000001', 0)
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Personnel), '000001', 0)
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(520): yii\grid\Column->renderDataCell(Object(app\models\Personnel), '000001', 0)
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(489): yii\grid\GridView->renderTableRow(Object(app\models\Personnel), '000001', 0)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(353): yii\grid\GridView->renderTableBody()
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{items}')
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#15 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(55): yii\base\Widget::widget(Array)
+#16 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\PersonnelController))
+#20 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('index', Array)
+#21 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#25 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/', Array)
+#26 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#28 {main}
+2018-07-12 09:42:06 [::1][2][021snrdeoio8r9fk23o57q5407][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => 'pdkbc87mvrq2p0cnn1ad2ao5t6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=pdkbc87mvrq2p0cnn1ad2ao5t6'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '51970'
+    'REDIRECT_URL' => '/nursesystem/personnel/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531381326.02
+    'REQUEST_TIME' => 1531381326
+]
+2018-07-12 09:43:00 [::1][2][021snrdeoio8r9fk23o57q5407][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Personnel::status' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('status')
+#1 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(38): yii\db\BaseActiveRecord->__get('status')
+#2 [internal function]: yii\base\View->{closure}(Object(app\models\Personnel), '000001', 0, Object(yii\grid\DataColumn))
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\DataColumn.php(230): call_user_func(Object(Closure), Object(app\models\Personnel), '000001', 0, Object(yii\grid\DataColumn))
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Personnel), '000001', 0)
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Personnel), '000001', 0)
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(520): yii\grid\Column->renderDataCell(Object(app\models\Personnel), '000001', 0)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(489): yii\grid\GridView->renderTableRow(Object(app\models\Personnel), '000001', 0)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(353): yii\grid\GridView->renderTableBody()
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(321): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\grid\GridView.php(296): yii\widgets\BaseListView->run()
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#16 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\index.php(55): yii\base\Widget::widget(Array)
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#20 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\PersonnelController))
+#21 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(34): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\PersonnelController->actionIndex()
+#23 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#25 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#26 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/', Array)
+#27 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#29 {main}
+2018-07-12 09:43:00 [::1][2][021snrdeoio8r9fk23o57q5407][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '021snrdeoio8r9fk23o57q5407'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=021snrdeoio8r9fk23o57q5407'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '51981'
+    'REDIRECT_URL' => '/nursesystem/personnel/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531381380.706
+    'REQUEST_TIME' => 1531381380
+]
+2018-07-12 09:49:21 [::1][2][021snrdeoio8r9fk23o57q5407][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\filters\AccessControl.php:158
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\filters\AccessControl.php(140): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#11 {main}
+2018-07-12 09:49:21 [::1][2][021snrdeoio8r9fk23o57q5407][info][application] $_GET = [
+    'id' => '000001'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '021snrdeoio8r9fk23o57q5407'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=021snrdeoio8r9fk23o57q5407'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52081'
+    'REDIRECT_QUERY_STRING' => 'id=000001'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000001'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000001'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531381761.146
+    'REQUEST_TIME' => 1531381761
+]
+2018-07-12 09:50:29 [::1][2][021snrdeoio8r9fk23o57q5407][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Personnel::comment' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('comment')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('comment')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(238): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Personnel), 'comment')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(143): yii\widgets\DetailView->normalizeAttributes()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\widgets\DetailView->init()
+#5 [internal function]: yii\base\BaseObject->__construct(Array)
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(47): yii\base\Widget::widget(Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#15 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#16 [internal function]: frontend\controllers\PersonnelController->actionView('000001')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#20 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#23 {main}
+2018-07-12 09:50:29 [::1][2][021snrdeoio8r9fk23o57q5407][info][application] $_GET = [
+    'id' => '000001'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '021snrdeoio8r9fk23o57q5407'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=021snrdeoio8r9fk23o57q5407'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52096'
+    'REDIRECT_QUERY_STRING' => 'id=000001'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000001'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000001'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531381829.13
+    'REQUEST_TIME' => 1531381829
+]
+2018-07-12 09:53:29 [::1][2][021snrdeoio8r9fk23o57q5407][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'htmlspecialchars() expects parameter 1 to be string, object given' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseHtml.php:111
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'htmlspecialchar...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseHtml.php(111): htmlspecialchars(Object(app\models\Prefix), 11, 'UTF-8', true)
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\i18n\Formatter.php(476): yii\helpers\BaseHtml::encode(Object(app\models\Prefix))
+#3 [internal function]: yii\i18n\Formatter->asText(Object(app\models\Prefix))
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\i18n\Formatter.php(439): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(180): yii\i18n\Formatter->format(Object(app\models\Prefix), 'text')
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(159): yii\widgets\DetailView->renderAttribute(Array, 1)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(140): yii\widgets\DetailView->run()
+#8 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(54): yii\base\Widget::widget(Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#13 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#14 [internal function]: frontend\controllers\PersonnelController->actionView('000001')
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#21 {main}
+2018-07-12 09:53:28 [::1][2][021snrdeoio8r9fk23o57q5407][info][application] $_GET = [
+    'id' => '000001'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '021snrdeoio8r9fk23o57q5407'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=021snrdeoio8r9fk23o57q5407'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52131'
+    'REDIRECT_QUERY_STRING' => 'id=000001'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000001'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000001'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531382008.981
+    'REQUEST_TIME' => 1531382008
+]
+2018-07-12 09:53:40 [::1][2][021snrdeoio8r9fk23o57q5407][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Personnel::prefix_name' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('prefix_name')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('prefix_name')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(238): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Personnel), 'prefix_name')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(143): yii\widgets\DetailView->normalizeAttributes()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\widgets\DetailView->init()
+#5 [internal function]: yii\base\BaseObject->__construct(Array)
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(54): yii\base\Widget::widget(Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#15 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#16 [internal function]: frontend\controllers\PersonnelController->actionView('000001')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#20 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#23 {main}
+2018-07-12 09:53:40 [::1][2][021snrdeoio8r9fk23o57q5407][info][application] $_GET = [
+    'id' => '000001'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '021snrdeoio8r9fk23o57q5407'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=021snrdeoio8r9fk23o57q5407'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52134'
+    'REDIRECT_QUERY_STRING' => 'id=000001'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000001'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000001'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531382020.587
+    'REQUEST_TIME' => 1531382020
+]
+2018-07-12 09:54:55 [::1][2][021snrdeoio8r9fk23o57q5407][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: fname' in C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php:9
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(9): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#5 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#6 [internal function]: frontend\controllers\PersonnelController->actionView('000001')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#13 {main}
+2018-07-12 09:54:55 [::1][2][021snrdeoio8r9fk23o57q5407][info][application] $_GET = [
+    'id' => '000001'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '021snrdeoio8r9fk23o57q5407'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=021snrdeoio8r9fk23o57q5407'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52143'
+    'REDIRECT_QUERY_STRING' => 'id=000001'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000001'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000001'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531382095.239
+    'REQUEST_TIME' => 1531382095
+]
+2018-07-12 09:56:01 [::1][2][021snrdeoio8r9fk23o57q5407][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant lname - assumed 'lname'' in C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php:9
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(9): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#5 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#6 [internal function]: frontend\controllers\PersonnelController->actionView('000001')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#13 {main}
+2018-07-12 09:56:01 [::1][2][021snrdeoio8r9fk23o57q5407][info][application] $_GET = [
+    'id' => '000001'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '021snrdeoio8r9fk23o57q5407'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=021snrdeoio8r9fk23o57q5407'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52153'
+    'REDIRECT_QUERY_STRING' => 'id=000001'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000001'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000001'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531382161.083
+    'REQUEST_TIME' => 1531382161
+]
+2018-07-12 09:56:22 [::1][2][021snrdeoio8r9fk23o57q5407][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant lname - assumed 'lname'' in C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php:9
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(9): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#5 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#6 [internal function]: frontend\controllers\PersonnelController->actionView('000001')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#13 {main}
+2018-07-12 09:56:22 [::1][2][021snrdeoio8r9fk23o57q5407][info][application] $_GET = [
+    'id' => '000001'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '021snrdeoio8r9fk23o57q5407'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=021snrdeoio8r9fk23o57q5407'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52157'
+    'REDIRECT_QUERY_STRING' => 'id=000001'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000001'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000001'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531382182.543
+    'REQUEST_TIME' => 1531382182
+]
+2018-07-12 09:57:35 [::1][2][021snrdeoio8r9fk23o57q5407][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant lname - assumed 'lname'' in C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php:9
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(9): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#5 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#6 [internal function]: frontend\controllers\PersonnelController->actionView('000001')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#13 {main}
+2018-07-12 09:57:34 [::1][2][021snrdeoio8r9fk23o57q5407][info][application] $_GET = [
+    'id' => '000001'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '021snrdeoio8r9fk23o57q5407'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index?PersonnelSearch%5Bq%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=021snrdeoio8r9fk23o57q5407'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52166'
+    'REDIRECT_QUERY_STRING' => 'id=000001'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000001'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000001'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531382254.873
+    'REQUEST_TIME' => 1531382254
+]
+2018-07-12 09:59:48 [::1][2][021snrdeoio8r9fk23o57q5407][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Personnel::category_name' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('category_name')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('category_name')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(238): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Personnel), 'category_name')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(143): yii\widgets\DetailView->normalizeAttributes()
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\widgets\DetailView->init()
+#5 [internal function]: yii\base\BaseObject->__construct(Array)
+#6 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(59): yii\base\Widget::widget(Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#15 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#16 [internal function]: frontend\controllers\PersonnelController->actionView('000002')
+#17 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#20 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#23 {main}
+2018-07-12 09:59:48 [::1][2][021snrdeoio8r9fk23o57q5407][info][application] $_GET = [
+    'id' => '000002'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '021snrdeoio8r9fk23o57q5407'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=021snrdeoio8r9fk23o57q5407'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52200'
+    'REDIRECT_QUERY_STRING' => 'id=000002'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000002'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000002'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531382388.764
+    'REQUEST_TIME' => 1531382388
+]
+2018-07-12 10:11:39 [::1][2][pe4b586v9hnoe42a6bohja5t21][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Personnel::nplist' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('nplist')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('nplist')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(201): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Personnel), 'nplist', NULL)
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(238): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Personnel), 'nplist.np_name')
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(143): yii\widgets\DetailView->normalizeAttributes()
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\widgets\DetailView->init()
+#6 [internal function]: yii\base\BaseObject->__construct(Array)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(75): yii\base\Widget::widget(Array)
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#16 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#17 [internal function]: frontend\controllers\PersonnelController->actionView('000002')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#24 {main}
+2018-07-12 10:11:39 [::1][2][pe4b586v9hnoe42a6bohja5t21][info][application] $_GET = [
+    'id' => '000002'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => 'pe4b586v9hnoe42a6bohja5t21'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=pe4b586v9hnoe42a6bohja5t21'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52254'
+    'REDIRECT_QUERY_STRING' => 'id=000002'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000002'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000002'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531383099.666
+    'REQUEST_TIME' => 1531383099
+]
+2018-07-12 10:14:09 [::1][2][pe4b586v9hnoe42a6bohja5t21][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Personnel::nplist' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('nplist')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('nplist')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(201): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Personnel), 'nplist', NULL)
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(238): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Personnel), 'nplist.np_name')
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(143): yii\widgets\DetailView->normalizeAttributes()
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\widgets\DetailView->init()
+#6 [internal function]: yii\base\BaseObject->__construct(Array)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(75): yii\base\Widget::widget(Array)
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#16 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#17 [internal function]: frontend\controllers\PersonnelController->actionView('000002')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#24 {main}
+2018-07-12 10:14:09 [::1][2][pe4b586v9hnoe42a6bohja5t21][info][application] $_GET = [
+    'id' => '000002'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => 'pe4b586v9hnoe42a6bohja5t21'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=pe4b586v9hnoe42a6bohja5t21'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52265'
+    'REDIRECT_QUERY_STRING' => 'id=000002'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000002'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000002'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531383249.146
+    'REQUEST_TIME' => 1531383249
+]
+2018-07-12 10:18:56 [::1][2][pe4b586v9hnoe42a6bohja5t21][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Personnel::degreelist' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('degreelist')
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(208): yii\db\BaseActiveRecord->__get('degreelist')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(201): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Personnel), 'degreelist', NULL)
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(238): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Personnel), 'degreelist.degr...')
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\widgets\DetailView.php(143): yii\widgets\DetailView->normalizeAttributes()
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\widgets\DetailView->init()
+#6 [internal function]: yii\base\BaseObject->__construct(Array)
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(83): yii\base\Widget::widget(Array)
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#14 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#15 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#16 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#17 [internal function]: frontend\controllers\PersonnelController->actionView('000002')
+#18 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#21 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#22 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#24 {main}
+2018-07-12 10:18:56 [::1][2][pe4b586v9hnoe42a6bohja5t21][info][application] $_GET = [
+    'id' => '000002'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => 'pe4b586v9hnoe42a6bohja5t21'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=pe4b586v9hnoe42a6bohja5t21'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52280'
+    'REDIRECT_QUERY_STRING' => 'id=000002'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000002'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000002'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531383536.297
+    'REQUEST_TIME' => 1531383536
+]
+2018-07-12 11:41:30 [::1][2][4tlhr9p2r6ju6n1n7incgul3m3][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Personnel::position_name' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('position_name')
+#1 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(98): yii\db\BaseActiveRecord->__get('position_name')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#6 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#7 [internal function]: frontend\controllers\PersonnelController->actionView('000001')
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#14 {main}
+2018-07-12 11:41:30 [::1][2][4tlhr9p2r6ju6n1n7incgul3m3][info][application] $_GET = [
+    'id' => '000001'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '4tlhr9p2r6ju6n1n7incgul3m3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=4tlhr9p2r6ju6n1n7incgul3m3'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52486'
+    'REDIRECT_QUERY_STRING' => 'id=000001'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000001'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000001'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531388490.683
+    'REQUEST_TIME' => 1531388490
+]
+2018-07-12 11:41:43 [::1][2][4tlhr9p2r6ju6n1n7incgul3m3][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant position_name - assumed 'position_name'' in C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php:98
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(98): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#5 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#6 [internal function]: frontend\controllers\PersonnelController->actionView('000001')
+#7 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#13 {main}
+2018-07-12 11:41:43 [::1][2][4tlhr9p2r6ju6n1n7incgul3m3][info][application] $_GET = [
+    'id' => '000001'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '4tlhr9p2r6ju6n1n7incgul3m3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=4tlhr9p2r6ju6n1n7incgul3m3'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52491'
+    'REDIRECT_QUERY_STRING' => 'id=000001'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000001'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000001'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531388503.697
+    'REQUEST_TIME' => 1531388503
+]
+2018-07-12 11:42:48 [::1][2][4tlhr9p2r6ju6n1n7incgul3m3][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'print_r() expects parameter 2 to be boolean, array given' in C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php:98
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'print_r() expec...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php(98): print_r(Object(app\models\Position), Array)
+#2 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(336): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\PersonnelController))
+#5 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('view', Array, Object(frontend\controllers\PersonnelController))
+#6 C:\xampp\htdocs\nursesystem\_protected\frontend\controllers\PersonnelController.php(49): yii\base\Controller->render('view', Array)
+#7 [internal function]: frontend\controllers\PersonnelController->actionView('000001')
+#8 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#11 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/view', Array)
+#12 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#14 {main}
+2018-07-12 11:42:48 [::1][2][4tlhr9p2r6ju6n1n7incgul3m3][info][application] $_GET = [
+    'id' => '000001'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '4tlhr9p2r6ju6n1n7incgul3m3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=4tlhr9p2r6ju6n1n7incgul3m3'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52506'
+    'REDIRECT_QUERY_STRING' => 'id=000001'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000001'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000001'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531388568.148
+    'REQUEST_TIME' => 1531388568
+]
+2018-07-12 11:43:03 [::1][2][4tlhr9p2r6ju6n1n7incgul3m3][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'' in C:\xampp\htdocs\nursesystem\_protected\frontend\views\personnel\view.php:98
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-12 11:43:03 [::1][2][4tlhr9p2r6ju6n1n7incgul3m3][info][application] $_GET = [
+    'id' => '000001'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    '_csrf' => '4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf\";}'
+    'PHPSESSID' => '4tlhr9p2r6ju6n1n7incgul3m3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; _csrf=4743f5d9526b56338c624f02e4bc4f45de598c343e8a9854f72331a84ebd04d5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nkjgo4sxza8yV0rxKRI__n1-7EiXPkwf%22%3B%7D; PHPSESSID=4tlhr9p2r6ju6n1n7incgul3m3'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52510'
+    'REDIRECT_QUERY_STRING' => 'id=000001'
+    'REDIRECT_URL' => '/nursesystem/personnel/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=000001'
+    'REQUEST_URI' => '/nursesystem/personnel/view?id=000001'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531388583.462
+    'REQUEST_TIME' => 1531388583
+]
+2018-07-13 04:50:50 [::1][2][m63guh4n9qiifqu486pfefkal6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "personnel/img/nurse.png".' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/img/n...', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-07-13 04:50:50 [::1][2][m63guh4n9qiifqu486pfefkal6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    'PHPSESSID' => 'm63guh4n9qiifqu486pfefkal6'
+    '_csrf' => 'b8be0aa427e44491bd7af2a25bbf1a31f5391e3c980f38a75dfe7f77efb6c124a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2-ItefgY6KrDaGKgGaA6DTnv3vhmT4jv\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/view?id=000001'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; PHPSESSID=m63guh4n9qiifqu486pfefkal6; _csrf=b8be0aa427e44491bd7af2a25bbf1a31f5391e3c980f38a75dfe7f77efb6c124a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222-ItefgY6KrDaGKgGaA6DTnv3vhmT4jv%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa-Dell\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52718'
+    'REDIRECT_URL' => '/nursesystem/personnel/img/nurse.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/img/nurse.png'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531450250.113
+    'REQUEST_TIME' => 1531450250
+]
+2018-07-13 04:50:51 [::1][2][m63guh4n9qiifqu486pfefkal6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "personnel/img/cal.gif".' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('personnel/img/c...', Array)
+#1 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\nursesystem\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\nursesystem\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-07-13 04:50:50 [::1][2][m63guh4n9qiifqu486pfefkal6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh\",2592000]\";}'
+    'PHPSESSID' => 'm63guh4n9qiifqu486pfefkal6'
+    '_csrf' => 'b8be0aa427e44491bd7af2a25bbf1a31f5391e3c980f38a75dfe7f77efb6c124a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2-ItefgY6KrDaGKgGaA6DTnv3vhmT4jv\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/nursesystem/personnel/view?id=000001'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'th-TH,th;q=0.9'
+    'HTTP_COOKIE' => '_identity=bfd24ad34409f2a15e2f90ed58d5aa05408ad68e2f53cca33f4f0ffa034efea7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22W34SvqDgWBEbJe3CCI7qDIeYtbxlcNnh%22%2C2592000%5D%22%3B%7D; PHPSESSID=m63guh4n9qiifqu486pfefkal6; _csrf=b8be0aa427e44491bd7af2a25bbf1a31f5391e3c980f38a75dfe7f77efb6c124a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222-ItefgY6KrDaGKgGaA6DTnv3vhmT4jv%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\composer;C:\\Users\\NoBiTa-Dell\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\NoBiTa-Dell\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/nursesystem/index.php'
+    'REMOTE_PORT' => '52718'
+    'REDIRECT_URL' => '/nursesystem/personnel/img/cal.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/nursesystem/personnel/img/cal.gif'
+    'SCRIPT_NAME' => '/nursesystem/index.php'
+    'PHP_SELF' => '/nursesystem/index.php'
+    'REQUEST_TIME_FLOAT' => 1531450250.755
+    'REQUEST_TIME' => 1531450250
+]

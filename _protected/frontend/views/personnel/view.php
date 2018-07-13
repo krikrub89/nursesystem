@@ -6,44 +6,99 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Personnel */
 
-$this->title = $model->person_id;
+$this->title = 'แสดงข้อมูล';
 $this->params['breadcrumbs'][] = ['label' => 'Personnels', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] =  $model->fname.' '.$model->lname;
 ?>
 <div class="personnel-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>
-        <?= Html::a('Update', ['update', 'id' => $model->person_id], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Delete', ['delete', 'id' => $model->person_id], [
-            'class' => 'btn btn-danger',
-            'data' => [
-                'confirm' => 'Are you sure you want to delete this item?',
-                'method' => 'post',
-            ],
-        ]) ?>
-    </p>
 
-    <?= DetailView::widget([
+  <div class="box box-primary">
+        <div class="box-header with-border">
+            <h3 class="box-title"><?php print_r($model->fname.' '.$model->lname) ?></h3>
+          <div class="box-tools pull-right">
+            <!-- Buttons, labels, and many other things can be placed here! -->
+            <!-- Here is a label for example -->
+            <span class="label label-primary">Label</span>
+          </div><!-- /.box-tools -->
+        </div><!-- /.box-header -->
+        <div class="box box-primary">
+        <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
             'person_id',
-            'prefix_id',
-            'fname',
-            'lname',
-            'person_birthday',
-            'category_id',
-            'position_id',
-            'levelposition_id',
-            'startworkdate',
-            'np_id',
-            'apn_id',
-            'degree_id',
-            'comment',
-            'comment2',
-            'comment3',
+            [
+                'label'=>'คำนำหน้า',
+                'attribute' => 'prefix.prefix_name',
+               
+            ],
+            [
+                'label'=>'ชื่อ',
+                'attribute' => 'fname',
+               
+            ],
+            [
+                'label'=>'นามสกุล',
+                'attribute' => 'lname',
+                
+            ],
+            [
+                'label'=>'วันเดือนปี เกิด',
+               'attribute' => 'person_birthday',
+              
+            ],
+            [
+                'label'=>'ตำแหน่ง',
+               'attribute' => 'category.category_name',
+              
+            ],
+            [
+                'label'=>'สายงาน',
+               'attribute' => 'position.position_name',
+              
+            ],
+            [
+                'label'=>'ระดับ',
+               'attribute' => 'levelposition.levelposition_name',
+              
+            ],
+            [
+                'label'=>'วันที่เริ่มงาน',
+               'attribute' => 'startworkdate',
+              
+            ],
+            [
+                'label'=>'หลักสูตร NP',
+               'attribute' => 'nplist.np_name',
+              
+            ],
+            [
+                'label'=>'หลักสูตร APN',
+               'attribute' => 'apnlist.apn_name',
+              
+            ],
+            [
+                'label'=>'การศึกษา',
+               'attribute' => 'degreelist.degree_name',
+              
+            ],
+            [
+                'label'=>'แผนก',
+               'attribute' => 'department.dep_name',
+              
+            ],
+            
+          //  'comment2',
+          //  'comment3',
         ],
     ]) ?>
+        </div><!-- /.box-body -->
+        <div class="box-footer">
+        
+        </div><!-- box-footer -->
+      </div><!-- /.box -->
+
+    
 
 </div>

@@ -13,14 +13,14 @@ use app\models\Personnel;
 class PersonnelSearch extends Personnel
 {
     public $q;
-    public $prefix;
+   
     /**
      * {@inheritdoc}
      */
     public function rules()
     {
         return [
-            [['person_id', 'prefix.prefix_name','fname', 'lname', 'person_birthday', 'category_id', 'position_id', 'levelposition_id', 'startworkdate', 'np_id', 'apn_id', 'degree_id', 'dep_id', 'comment2', 'comment3','q'], 'safe'],
+            [['person_id','prefix_name','fname', 'lname', 'person_birthday', 'category_id', 'position_id', 'levelposition_id', 'startworkdate', 'np_id', 'apn_id', 'degree_id', 'dep_id', 'comment2', 'comment3','q'], 'safe'],
             [['prefix_id'], 'integer'],
         ];
     }
@@ -50,7 +50,13 @@ class PersonnelSearch extends Personnel
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
-
+        
+        $dataProvider->sort->attributes['prefix'] = [
+            'asc' => ['prefix.prefix_name' => SORT_ASC],
+           'desc' => ['prefix.prefix_name' => SORT_DESC]
+       ];
+        
+        
         $this->load($params);
 
         if (!$this->validate()) {
@@ -66,19 +72,19 @@ class PersonnelSearch extends Personnel
             'startworkdate' => $this->startworkdate,
         ]);
 
-        $query->andFilterWhere(['like', 'person_id', $this->q])
-            ->andFilterWhere(['like', 'prefix.prefix_name',$this->prefix])
-            ->andFilterWhere(['like', 'fname', $this->q])
-            ->andFilterWhere(['like', 'lname', $this->q])
-            ->andFilterWhere(['like', 'category_id', $this->q])
-            ->andFilterWhere(['like', 'position_id', $this->q])
-            ->andFilterWhere(['like', 'levelposition_id', $this->q])
-            ->andFilterWhere(['like', 'np_id', $this->q])
-            ->andFilterWhere(['like', 'apn_id', $this->q])
-            ->andFilterWhere(['like', 'degree_id', $this->q])
-            ->andFilterWhere(['like', 'dep_id', $this->q])
-            ->andFilterWhere(['like', 'comment2', $this->q])
-            ->andFilterWhere(['like', 'comment3', $this->q]);
+        $query->orFilterWhere(['like', 'person_id', $this->q])
+            ->orFilterWhere(['like', 'prefix_name',$this->q])
+            ->orFilterWhere(['like', 'fname', $this->q])
+            ->orFilterWhere(['like', 'lname', $this->q])
+            ->orFilterWhere(['like', 'category_id', $this->q])
+            ->orFilterWhere(['like', 'position_id', $this->q])
+            ->orFilterWhere(['like', 'levelposition_id', $this->q])
+            ->orFilterWhere(['like', 'np_id', $this->q])
+            ->orFilterWhere(['like', 'apn_id', $this->q])
+            ->orFilterWhere(['like', 'degree_id', $this->q])
+            ->orFilterWhere(['like', 'dep_id', $this->q])
+            ->orFilterWhere(['like', 'comment2', $this->q])
+            ->orFilterWhere(['like', 'comment3', $this->q]);
 
         return $dataProvider;
     }

@@ -148,10 +148,10 @@ class FrontendController extends Controller
                         'allow' => true
                     ],
                     [
-                       'controllers' => ['personnel'],
-                        'actions' => ['index'],
+                       'controllers' => ['personnel',],
+                        'actions' => ['index','view'],
                         'allow' => true,
-                        'roles' => ['member','admin'],
+                        'roles' => ['member','admin',],
                     ],
                     [
                        'controllers' => ['nursejob'],

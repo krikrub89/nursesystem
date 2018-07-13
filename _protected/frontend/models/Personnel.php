@@ -126,7 +126,7 @@ class Personnel extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getNp()
+    public function getNplist()
     {
         return $this->hasOne(Nplist::className(), ['np_id' => 'np_id']);
     }
@@ -134,7 +134,7 @@ class Personnel extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getApn()
+    public function getApnlist()
     {
         return $this->hasOne(Apnlist::className(), ['apn_id' => 'apn_id']);
     }
@@ -142,7 +142,7 @@ class Personnel extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getDegree()
+    public function getDegreelist()
     {
         return $this->hasOne(Degreelist::className(), ['degree_id' => 'degree_id']);
     }
@@ -150,7 +150,7 @@ class Personnel extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getDep()
+    public function getDepartment()
     {
         return $this->hasOne(Department::className(), ['dep_id' => 'dep_id']);
     }

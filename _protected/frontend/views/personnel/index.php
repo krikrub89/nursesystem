@@ -27,15 +27,29 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'person_id',
+           // 'person_id',
             
             [
+                'label'=>'คำนำหน้า',
                 'attribute' => 'prefix',
                 'value' => 'prefix.prefix_name'
             ],
-            'fname',
-            'lname',
-            'person_birthday',
+            [
+                'label'=>'ชื่อ',
+                'attribute' => 'fname',
+                'value' => 'fname'
+            ],
+            [
+                'label'=>'นามสกุล',
+                'attribute' => 'lname',
+                'value' => 'lname'
+            ],
+            [
+                'label'=>'วันเดือนปี เกิด',
+                'attribute' => 'person_birthday',
+                'value' => 'person_birthday'
+            ],
+            
             //'category_id',
             //'position_id',
             //'levelposition_id',
