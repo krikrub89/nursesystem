@@ -200,9 +200,7 @@ foreach ($subeight as $value) {
                 ['label' => 'ข้อมูลกำลังคน', 'icon' => 'fa fa-users', 'url' => '#',
                     'items'=> $menusubfive
                     ], 
-                 ['label' => 'ข้อมูลรายบุคคล', 'icon' => 'circle-o', 'url' => '#',
-                    'items'=> $menusubsix
-                    ], 
+                 ['label' => 'ข้อมูลรายบุคคล', 'icon' => 'fa fa-female', 'url' => 'personnel/'], 
                
                    
              //////////////////////////////////////////////////////////////      

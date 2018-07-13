@@ -22,6 +22,8 @@ use yii\db\Query;
  * It is responsible for displaying static pages, logging users in and out,
  * sign up and account activation, password reset.
  */
+
+
 class SiteController extends Controller
 {
     /**
@@ -29,6 +31,8 @@ class SiteController extends Controller
      *
      * @return array
      */
+    
+    
     public function behaviors()
     {
         return [
