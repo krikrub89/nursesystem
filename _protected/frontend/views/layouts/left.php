@@ -117,25 +117,24 @@ foreach ($subeight as $value) {
 
     <section class="sidebar">
 
-
       
         <div  class="sidebar-form" style="border-style: hidden" align="center">
          <div  class="box box-success" style="width:205px;text-align:left;"  >
        <?= dmstr\widgets\Menu::widget(
-             
+   
             [
               'options' => ['class' => 'sidebar-menu tree', 'data-widget'=> 'tree'],  
-                
+              'encodeLabels' => false,
                'items' => [ 
-                
+              
                  ['label' => 'ฐานข้อมูลทั่วไป', 
                      'options' => ['class' => 'header'],
                     ],                 
                  [
-                                'label' => 'ข้อมูลพื้นฐาน',
-                                'icon' => 'fa fa-file-text-o',
+                                 
+                                'label' => '<i class="fa fa-file-text-o" aria-hidden="true"></i> ข้อมูลพื้นฐาน <span class="label label-success pull-right">2</span>',
                                 'url' => '#',
-                              
+                                'template' => '<a href="{url}" class="href_class">{label}</a>',
                                 'items' => [
                                     [
                                         'label' => 'ข้อมูลโรงพยาบาล',
@@ -156,9 +155,10 @@ foreach ($subeight as $value) {
                             ],  
                  ////////////////////////////////////////////////////////////////////////   
                  [
-                                'label' => 'ข้อมูลองค์กรพยาบาล',
-                                'icon' => 'circle-o',
+                                
+                                'label' => '<i class="fa fa-file-text-o" aria-hidden="true"></i> ข้อมูลองค์กรพยาบาล <span class="label label-success pull-right">2</span>',
                                 'url' => '#',
+                                'template' => '<a href="{url}" class="href_class">{label}</a>',
                                  'items' => [
                                     [
                                         'label' => 'ข้อมูลพื้นฐาน',

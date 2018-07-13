@@ -23,8 +23,9 @@ use yii\widgets\ActiveForm;
       
       </span>
     </div>
+
     <?php ActiveForm::end(); ?>
 
 </div>
 
-</div>
+

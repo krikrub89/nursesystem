@@ -10,17 +10,22 @@ use yii\widgets\Pjax;
 $this->title = 'ข้อมูลรายบุคคล';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+
+
 <div class="personnel-index">
+  
 
-    <h1><?php //Html::encode($this->title) ?></h1>
-    <?php yii\widgets\Pjax::begin(['id' => 'grid-user-pjax','timeout'=>5000]) ?>
-    <?php  echo $this->render('_search', ['model' => $searchModel]); ?>
-
-    <p>
-        <?php //Html::a('Create Personnel', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
-
-    <?= GridView::widget([
+      <div class="col-md-12">
+            <div class="box box-solid box-info">
+              <div class="box-header">
+                  <h3 class="box-title"></h3>
+               ข้อมูลบุคลากรทางการพยาบาล
+              </div><!-- /.box-header -->
+              <div class="box-body">
+                <?php yii\widgets\Pjax::begin(['id' => 'grid-user-pjax','timeout'=>5000]) ?>
+                <?php  echo $this->render('_search', ['model' => $searchModel]); ?>
+    
+                 <?= GridView::widget([
         'dataProvider' => $dataProvider,
         //'filterModel' => $searchModel,
         'summary' => false,
@@ -68,5 +73,10 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ],
     ]); ?>
+              </div><!-- /.box-body -->
+            </div><!-- /.box -->
+          </div>
+
+  
     <?php yii\widgets\Pjax::end() ?>
 </div>
